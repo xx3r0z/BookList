@@ -51,7 +51,8 @@ class BookList {
 
     deleteBook(target) {
         if (target.innerText === "X"){
-            target.parentNode.parentNode.remove()
+            target.parentNode.parentNode.remove();
+            this.alertMessage("Book deleted!", "success");
         }
     }
 
