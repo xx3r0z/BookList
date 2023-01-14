@@ -113,5 +113,4 @@ document.getElementById('book-list').addEventListener('click', (e) => {
 
     book.deleteFromLS(e.target.parentElement.parentElement.firstElementChild.innerText);
     book.deleteBook(e.target);
-    book.alertMessage("Book deleted!", "success");
 });
